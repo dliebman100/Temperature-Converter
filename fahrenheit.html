@@ -43,24 +43,31 @@
       </div>
     </div>
   </nav>
-  <h1>Fahrenheit to Celsius</h1>
+  <h1></h1>
   <!-- CALCULATOR -->
-  <form>
-  <p>
-    <label for="inputTemp">Temperature: </label>
-    <input type="text" id="inputTemp" />
-  </p>
-  <p>
-    <input type="button" id="convertBtn" value="Convert">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="reset" value="Reset"/>
-  </p>
-  <p>
-    <label for="conversion">Converted Temperature: </label>
-    <input type="text" id="conversion" />
-  </p>
-</form>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="display-4 text-center mb-4">
+              Fahrenheit to Celsius Converter
+            </h1>
+            <form>
+              <p>
+                <label for="inputTemp">Temperature: </label>
+                <input type="text" id="inputTemp" placeholder="input temperature in F" />
+              </p>
+              <p>
+                <input type="button" id="convertBtn" value="Convert" class="btn btn-primary">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" value="Reset" class="btn btn-warning"/>
+              </p>
+              <p>
+                <label for="conversion">Converted Temperature: </label>
+                <input type="text" id="conversion" />
+              </p>
+            </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
 </script>
 </body>
 </html>
+
