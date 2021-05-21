@@ -9,7 +9,7 @@ function convertBtnClicked() {
   const inputTempField = document.getElementById("inputTemp");
   let inputTemp = Number(inputTempField.value);
 
-  let conversion = (inputTemp * 5/9) + 32;
+  let conversion = (inputTemp * 9/5) + 32;
 
   const conversionField = document.getElementById("conversion");
   conversionField.value = conversion;
